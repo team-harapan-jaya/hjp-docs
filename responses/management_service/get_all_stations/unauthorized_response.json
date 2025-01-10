@@ -1,0 +1,8 @@
+{
+    "Header": "Unauthorized",
+    "Status": 401,
+    "Detail": "An 'Unauthorized' error has occurred.",
+    "Instance": "/v2/Stations",
+    "Note": null,
+    "Data": null
+}

@@ -1,0 +1,8 @@
+{
+    "Header": "Not Found",
+    "Status": 404,
+    "Detail": "Station Not Found",
+    "Instance": "/v2/Stations/6bf15c87-1b23-43bc-b2a7-9c17a0016bfa",
+    "Note": null,
+    "Data": null
+}

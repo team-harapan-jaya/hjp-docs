@@ -1,0 +1,40 @@
+{
+    "Data": [
+      {
+        "Id": "97aba601-4cc8-4746-c007-08dd08401c32",
+        "ScheduleDate": "2024-11-19T00:00:00",
+        "RegNumber": "AG 7868 US",
+        "ScheduleType": "Regular",
+        "DepartureTime": "17:08:00",
+        "ArrivalTime": "17:30:00",
+        "Departure": {
+          "StationId": "2ea28438-b1b3-4a0a-9f7d-08dc0c321c74",
+          "StationName": "KERTOSONO",
+          "CityName": "JOMBANG",
+          "Time": "17:08:00"
+        },
+        "Arrival": {
+          "StationId": "16a79a7b-389a-4c9b-9f7b-08dc0c321c74",
+          "StationName": "TULUNGAGUNG",
+          "CityName": "TULUNGAGUNG",
+          "Time": "17:30:00"
+        },
+        "Duration": {
+          "Hour": 0,
+          "Minute": 22
+        },
+        "MsRouteId": "25abaa8b-3148-4a14-1342-08dcbc32288f",
+        "ClassName": "PATAS",
+        "Price": 630000,
+        "SeatCapacity": 18,
+        "SeatAvailable": 0,
+        "SeatBooked": 0
+      }
+    ],
+    "PageNumber": 1,
+    "PageSize": 10,
+    "TotalPages": 1,
+    "Count": 2,
+    "HasPreviousPage": false,
+    "HasNextPage": false
+  }
