@@ -19,5 +19,3 @@ After installation, you can start the local server to preview the documentation:
 ```bash
 npm run dev
 ```
-
-Navigate to http://localhost:5173 to view the documentation.

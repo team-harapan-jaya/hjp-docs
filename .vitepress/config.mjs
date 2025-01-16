@@ -5,7 +5,7 @@ export default defineConfig({
   description: "This is Harapan Jaya Penumpang Documentation",
   base: "/hjp-docs/",
   head: [
-    ["link", { rel: "icon", type: "image/png", sizes: "16x16", href: "/logo-hj.png" }]
+    ["link", { rel: "icon", type: "image/png", sizes: "16x16", href: "logo-hj.png" }]
   ],
   themeConfig: {
     logo: 'logo-hj.png',

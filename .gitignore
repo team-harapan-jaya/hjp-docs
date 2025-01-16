@@ -92,3 +92,4 @@ Thumbs.db
 
 # VitePress cache
 .vitepress/cache
+.vitepress/dist
