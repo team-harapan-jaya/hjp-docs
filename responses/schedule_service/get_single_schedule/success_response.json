@@ -1,0 +1,124 @@
+{
+    "Id": "97aba601-4cc8-4746-c007-08dd08401c32",
+    "ScheduleDate": "2024-11-19T00:00:00",
+    "ScheduleType": "Regular",
+    "DepartureTime": "17:08:00",
+    "ArrivalTime": "17:30:00",
+    "Departure": {
+      "StationId": "2ea28438-b1b3-4a0a-9f7d-08dc0c321c74",
+      "StationName": "KERTOSONO",
+      "CityName": "JOMBANG",
+      "Time": "17:08:00",
+      "Longitude": 112.4285888671875,
+      "Latitude": -7.44049072265625,
+      "Address": "Jalan Tol Kertosono–Mojokerto, Sidoharjo, Mojokerto, Jawa Timur, Jawa, 61318, Indonesia"
+    },
+    "Arrival": {
+      "StationId": "16a79a7b-389a-4c9b-9f7b-08dc0c321c74",
+      "StationName": "TULUNGAGUNG",
+      "CityName": "TULUNGAGUNG",
+      "Time": "17:30:00",
+      "Longitude": 111.9122314453125,
+      "Latitude": -8.07220458984375,
+      "Address": "Tamanan, Tulungagung, Jawa Timur, Jawa, 66218, Indonesia"
+    },
+    "Duration": {
+      "Hour": 0,
+      "Minute": 22
+    },
+    "Routes": [
+      {
+        "Id": "8c95586e-96a7-4a21-7e9a-08dd084063bf",
+        "CityId": "75c5cda8-c12e-4213-82e3-117a30f1fe72",
+        "CityName": "JOMBANG",
+        "StationId": "2ea28438-b1b3-4a0a-9f7d-08dc0c321c74",
+        "StationName": "KERTOSONO",
+        "Order": 0,
+        "DepartureTime": "17:08:00",
+        "ArrivalTime": null,
+        "IsCrossDay": false
+      },
+      {
+        "Id": "6ad0fbfe-dfe0-460d-7e9b-08dd084063bf",
+        "CityId": "53e3783f-a338-48f9-974e-39a1e06407ac",
+        "CityName": "KEDIRI",
+        "StationId": "5a18c04b-8827-427c-9f7c-08dc0c321c74",
+        "StationName": "KEDIRI",
+        "Order": 1,
+        "DepartureTime": "17:10:00",
+        "ArrivalTime": "17:09:00",
+        "IsCrossDay": false
+      },
+      {
+        "Id": "7c67d2b3-ac3e-473e-7e9c-08dd084063bf",
+        "CityId": "53e3783f-a338-48f9-974e-39a1e06407ac",
+        "CityName": "KEDIRI",
+        "StationId": "95f0efb8-17ff-4615-1701-08dc53b576f9",
+        "StationName": "PARE",
+        "Order": 2,
+        "DepartureTime": "17:12:00",
+        "ArrivalTime": "17:11:00",
+        "IsCrossDay": false
+      },
+      {
+        "Id": "5d2b52af-a135-454c-7e9d-08dd084063bf",
+        "CityId": "c948ebac-1c77-4068-8fb0-3687a8151671",
+        "CityName": "MOJOKERTO",
+        "StationId": "857f3c62-172e-4815-9adb-08dc81d95531",
+        "StationName": "MOJOKERTO",
+        "Order": 3,
+        "DepartureTime": "17:14:00",
+        "ArrivalTime": "17:13:00",
+        "IsCrossDay": false
+      },
+      {
+        "Id": "47360e62-f440-41b0-7e9e-08dd084063bf",
+        "CityId": "b8adbe90-6d55-4379-87b5-58df9c936dcb",
+        "CityName": "NGANJUK",
+        "StationId": "259d71c4-4262-456b-1700-08dc53b576f9",
+        "StationName": "NGANJUK",
+        "Order": 4,
+        "DepartureTime": "17:16:00",
+        "ArrivalTime": "17:15:00",
+        "IsCrossDay": false
+      },
+      {
+        "Id": "603adb15-1f14-4dee-7e9f-08dd084063bf",
+        "CityId": "aa5748c2-2c63-436d-8957-516a7b60deb2",
+        "CityName": "SURABAYA",
+        "StationId": "5b1fd104-ea6c-48df-9f7e-08dc0c321c74",
+        "StationName": "SURABAYA",
+        "Order": 5,
+        "DepartureTime": "17:18:00",
+        "ArrivalTime": "17:17:00",
+        "IsCrossDay": false
+      },
+      {
+        "Id": "1e517d6d-5d82-44d2-7ea0-08dd084063bf",
+        "CityId": "c2e82e03-2e5a-41d2-96fb-b63de3d20843",
+        "CityName": "Trenggalek",
+        "StationId": "d5f2bb9d-d443-4017-9f7a-08dc0c321c74",
+        "StationName": "TRENGGALEK",
+        "Order": 6,
+        "DepartureTime": "17:20:00",
+        "ArrivalTime": "17:19:00",
+        "IsCrossDay": false
+      },
+      {
+        "Id": "8dab675f-b085-4b8a-7ea1-08dd084063bf",
+        "CityId": "1f95de7a-fc23-447d-a158-774fdd332fea",
+        "CityName": "TULUNGAGUNG",
+        "StationId": "16a79a7b-389a-4c9b-9f7b-08dc0c321c74",
+        "StationName": "TULUNGAGUNG",
+        "Order": 7,
+        "DepartureTime": null,
+        "ArrivalTime": "17:30:00",
+        "IsCrossDay": false
+      }
+    ],
+    "MsRouteId": "25abaa8b-3148-4a14-1342-08dcbc32288f",
+    "ClassName": "PATAS",
+    "SeatCapacity": 18,
+    "SeatAvailable": 0,
+    "Price": 630000
+  }

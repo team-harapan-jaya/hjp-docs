@@ -1,0 +1,29 @@
+{
+    "Data": [
+      {
+        "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "CityName": "Surabaya",
+        "CityCode": "SBY",
+        "IsHasStation": true,
+        "IsActive": true,
+        "Stations": [
+          {
+            "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "Code": "TBS",
+            "Name": "Terminal Bungurasih",
+            "Longitude": "113.7009312",
+            "Latitude": "-8.1733118",
+            "Type": "Terminal",
+            "MsCitiesId": "24d129e6-2088-42c6-76b5-08dd0486dd55",
+            "IsActive": true
+          }
+        ]
+      }
+    ],
+    "PageNumber": 1,
+    "PageSize": 10,
+    "TotalPages": 2,
+    "Count": 20,
+    "HasPreviousPage": true,
+    "HasNextPage": true
+  }

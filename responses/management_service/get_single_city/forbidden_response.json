@@ -1,0 +1,8 @@
+{
+    "Header": "Forbidden",
+    "Status": 403,
+    "Detail": "You don't have permission to access this resource",
+    "Instance": "/v2/Cities",
+    "Note": null,
+    "Data": null
+}

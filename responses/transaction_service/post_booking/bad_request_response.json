@@ -1,0 +1,13 @@
+{
+    "Header": "Failed",
+    "Status": 400,
+    "Detail": "One or more validation errors occurred.",
+    "Instance": "/v2/Bookings",
+    "Note": null,
+    "Data": [
+        {
+            "Field": "CityName",
+            "Message": "Invalid format."
+        }
+    ]
+}

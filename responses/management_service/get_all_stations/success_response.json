@@ -1,0 +1,18 @@
+{
+    "Data": [
+      {
+        "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "Name": "Terminal Bungurasih",
+        "Code": "TBS",
+        "CityName": "Surabaya",
+        "CityCode": "SBY",
+        "Type": "Terminal"
+      }
+    ],
+    "PageNumber": 1,
+    "PageSize": 10,
+    "TotalPages": 2,
+    "Count": 20,
+    "HasPreviousPage": true,
+    "HasNextPage": true
+  }

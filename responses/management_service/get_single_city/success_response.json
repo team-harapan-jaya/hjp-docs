@@ -1,0 +1,11 @@
+{
+    "Id": "123e4567-e89b-12d3-a456-426614174000",
+    "CityCode": "JKT",
+    "CityName": "Jakarta",
+    "MsProvince": {
+      "Id": "789e4567-e89b-12d3-a456-426614174999",
+      "ProvinceCode": "DKI",
+      "ProvinceName": "DKI Jakarta"    
+    },
+    "IsActive": true
+  }
