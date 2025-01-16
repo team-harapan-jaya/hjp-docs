@@ -3,9 +3,8 @@
 layout: home
 
 hero:
-  name: "Welcome to Harapan Jaya Documentation"
-  text: ""
-  tagline: My great project tagline
+  name: "👋🏼Welcome to HJP Documentation"
+  tagline: Your gateway to seamless Harapan Jaya API Integration
   actions:
     - theme: brand
       text: Introduction
@@ -18,11 +17,16 @@ hero:
       link: /api_references/management_service/get_all_cities
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: API Authentication
+    details: The authentication methods required to securely access the Harapan Jaya API.
+    link: /api_authentication
+  - title: Management Service
+    details: Handles the management of cities, stations, and other related data.
+    link: /api_references/management_service/get_all_cities
+  - title: Schedule Service
+    details: Provides information on bus schedules, types, and details for route planning.
+    link: /api_references/schedule_service/get_all_schedules
+  - title: Transaction Service
+    details: Facilitates booking processes and payment-related transactions.
+    link: /api_references/transaction_service/post_booking
 ---
-

@@ -1,12 +1,15 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  title: "Harapan Jaya Documentation",
+  title: "HJP Documentation",
   description: "This is Harapan Jaya Penumpang Documentation",
+  head: [
+    ["link", { rel: "icon", type: "image/png", sizes: "16x16", href: "/logo-hj.png" }]
+  ],
   themeConfig: {
+    logo: 'logo-hj.png',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Home', link: '/' }
     ],
     sidebar: [
       {
@@ -50,7 +53,7 @@ export default defineConfig({
             items: [
               { text: 'POST Booking', link: '/api_references/transaction_service/post_booking' },
               { text: 'GET All Bookings', link: '/api_references/transaction_service/get_all_bookings' },
-              { text: 'GET Single Booking', link: '/api_references/transaction_service/get_single booking' }
+              { text: 'GET Single Booking', link: '/api_references/transaction_service/get_single_booking' }
             ]
           }
         ]
