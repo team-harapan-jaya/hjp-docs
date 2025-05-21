@@ -19,7 +19,7 @@ The request must include the following parameters:
 ## Example Request
 
 ```bash
-curl -X POST "https://identity.harapan-jaya.com/realms/dev/protocol/openid-connect/token" \
+curl -X POST "https://identity.harapan-jaya.com/realms/sa/protocol/openid-connect/token" \
      -H "Content-Type: application/x-www-form-urlencoded" \
      -d "client_id=your_client_id&client_secret=your_client_secret&grant_type=client_credentials"
 ```
