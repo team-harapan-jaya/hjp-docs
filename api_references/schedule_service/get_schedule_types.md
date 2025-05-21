@@ -8,9 +8,9 @@ This endpoint retrieves a list of available schedule types. This endpoint is use
 
 ## URL
 
-**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com
+**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com`
 
-**Base URL (production)**: `https://api-akdp.harapan-jaya.com
+**Base URL (production)**: `https://api-akdp.harapan-jaya.com`
 
 **Endpoint**: `/roster/v2/Schedules/Types`
 

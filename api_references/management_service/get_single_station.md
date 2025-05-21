@@ -8,9 +8,9 @@ This endpoint retrieve detailed information about a specific station by its uniq
 
 ## URL
 
-**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com
+**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com`
 
-**Base URL (production)**: `https://api-akdp.harapan-jaya.com
+**Base URL (production)**: `https://api-akdp.harapan-jaya.com`
 
 **Endpoint**: `/management/v2/Stations/{id}`
 

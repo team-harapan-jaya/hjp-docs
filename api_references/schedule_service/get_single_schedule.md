@@ -8,9 +8,9 @@ This endpoint retrieves detailed information about a specific schedule by its un
 
 ## URL
 
-**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com
+**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com`
 
-**Base URL (production)**: `https://api-akdp.harapan-jaya.com
+**Base URL (production)**: `https://api-akdp.harapan-jaya.com`
 
 **Endpoint**: `/roster/v2/Schedules/{id}`
 

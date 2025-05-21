@@ -8,9 +8,9 @@ This endpoint retrieves detailed information about a specific city by its unique
 
 ## URL
 
-**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com
+**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com`
 
-**Base URL (production)**: `https://api-akdp.harapan-jaya.com
+**Base URL (production)**: `https://api-akdp.harapan-jaya.com`
 
 **Endpoint**: `/management/v2/Cities/{id}`
 

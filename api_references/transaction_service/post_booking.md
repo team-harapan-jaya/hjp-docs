@@ -11,9 +11,9 @@ This endpoint allows users to create a new booking by providing the necessary de
 
 ## URL
 
-**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com
+**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com`
 
-**Base URL (production)**: `https://api-akdp.harapan-jaya.com
+**Base URL (production)**: `https://api-akdp.harapan-jaya.com`
 
 **Endpoint**: `/transaction/v2/Bookings`
 
