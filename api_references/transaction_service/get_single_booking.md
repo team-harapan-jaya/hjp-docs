@@ -8,7 +8,9 @@ This endpoint retrieve detailed information about a specific booking using eithe
 
 ## URL
 
-**Base URL**: `https://dev-api-akdp.harapan-jaya.com`
+**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com
+
+**Base URL (production)**: `https://api-akdp.harapan-jaya.com
 
 **Endpoint**: `/transaction/v2/Bookings/{idorCode}`
 

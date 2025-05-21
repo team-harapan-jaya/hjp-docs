@@ -8,7 +8,9 @@ This endpoint allows users to retrieve a list of cities available in the system.
 
 ## URL
 
-**Base URL**: `https://dev-api-akdp.harapan-jaya.com`
+**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com
+
+**Base URL (production)**: `https://api-akdp.harapan-jaya.com
 
 **Endpoint**: `/management/v2/Cities`
 

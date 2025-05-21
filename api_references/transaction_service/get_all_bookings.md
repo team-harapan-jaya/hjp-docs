@@ -8,7 +8,9 @@ This endpoint allows users to retrieve a paginated list of bookings with optiona
 
 ## URL
 
-**Base URL**: `https://dev-api-akdp.harapan-jaya.com`
+**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com
+
+**Base URL (production)**: `https://api-akdp.harapan-jaya.com
 
 **Endpoint**: `/transaction/v2/Bookings`
 

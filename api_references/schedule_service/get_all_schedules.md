@@ -8,7 +8,9 @@ This endpoint allows users to retrieve a list of schedules with optional filters
 
 ## URL
 
-**Base URL**: `https://dev-api-akdp.harapan-jaya.com`
+**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com
+
+**Base URL (production)**: `https://api-akdp.harapan-jaya.com
 
 **Endpoint**: `/roster/v2/Schedules`
 
