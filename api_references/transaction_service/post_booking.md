@@ -36,28 +36,26 @@ This endpoint allows users to create a new booking by providing the necessary de
 ## Example Request Body
 
 ```json
-{
-    [
-        {
-            "Name": "John Doe",
-            "PhoneNumber": "0873622342",
-            "Email": "johndoe@example.com",
-            "Address": "123 Main Street",
-            "ScheduleId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "OriginStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "DestinationStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
-        },
-        {
-            "Name": "Jessica Doe",
-            "PhoneNumber": "0873622342",
-            "Email": "jessicadoe@example.com",
-            "Address": "123 Main Street",
-            "ScheduleId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "OriginStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "DestinationStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
-        }
-    ]
-}
+[
+    {
+        "Name": "John Doe",
+        "PhoneNumber": "0873622342",
+        "Email": "johndoe@example.com",
+        "Address": "123 Main Street",
+        "ScheduleId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "OriginStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "DestinationStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6" 
+    },
+    {
+        "Name": "Jessica Doe",
+        "PhoneNumber": "0873622342",
+        "Email": "jessicadoe@example.com",
+        "Address": "123 Main Street",
+        "ScheduleId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "OriginStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "DestinationStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+]
 ```
 
 ## Responses
