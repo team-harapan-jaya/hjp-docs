@@ -8,7 +8,10 @@ The Harapan Jaya API uses the OAuth2 client credentials flow for authentication,
 
 ## Token Request
 
-The client application sends a POST request to the token URL: `https://identity.harapan-jaya.com/realms/dev/protocol/openid-connect/token`
+The client application sends a POST request to the token URL, depending on the environment:
+
+- Development (Dev): `https://identity.harapan-jaya.com/realms/dev/protocol/openid-connect/token`
+- Production (Prod): `https://identity.harapan-jaya.com/realms/sa/protocol/openid-connect/token`
 
 The request must include the following parameters:
 
