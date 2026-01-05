@@ -6,6 +6,7 @@ outline: deep
 
 This change log records significant updates to the Harapan Jaya API documentation, including updates to service URLs, endpoints, and response structures that may impact existing integrations.
 
+## Version Change Details
 
 <div id="v1-1-0"></div>
 
