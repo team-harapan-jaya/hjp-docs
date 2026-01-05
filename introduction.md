@@ -1,4 +1,4 @@
-# Welcome to Harapan Jaya Penumpang Documentation
+# Welcome to Harapan Jaya API Documentation
 
 The Harapan Jaya API integration is designed to enable partners to sell bus tickets through the Harapan Jaya system. This API provides various endpoints for services such as management, scheduling, and transactions.
 
