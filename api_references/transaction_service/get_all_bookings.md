@@ -8,25 +8,27 @@ This endpoint allows users to retrieve a paginated list of bookings with optiona
 
 ## URL
 
-**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com`
+**Base URL (dev environtment)**: `https://dev-api.harapan-jaya.com`
 
-**Base URL (production)**: `https://api-akdp.harapan-jaya.com`
+**Base URL (production)**: `https://api.harapan-jaya.com`
 
-**Endpoint**: `/transaction/v2/Bookings`
+**Endpoint**: `/ticket/v1/Bookings`
 
-**URL Method**: `GET` `https://dev-api-akdp.harapan-jaya.com/transaction/v2/Bookings`
+**URL Method**: `GET` `https://dev-api.harapan-jaya.com/ticket/v1/Bookings`
 
-**Swagger URL**: `https://dev-api-akdp.harapan-jaya.com/swagger/index.html?urls.primaryName=Transaction+Service+OpenApi`
+**Swagger URL**: `https://dev-api-akdp.harapan-jaya.com/swagger/index.html?urls.primaryName=Ticketing+Service+OpenApi`
 
 ## Parameters
 
-| **Parameter**         | **Type**                          | **Description**                                     |
-|-----------------------|-----------------------------------|-----------------------------------------------------|
-| `bookingDate`         | `string($date-time)` _(query)_    | Filter bookings by creation date.                   |
-| `createdBy`           | `string` _(query)_                | Filter bookings by a user who created the booking.  |
-| `orderBy`             | `string` _(query)_                | Order results by specific fields.                   |
-| `pageNumber`          | `integer($int32)` _(query)_       | Page number for paginated results.                  |
-| `pageSize`            | `integer($int32)` _(query)_       | Number of results per page.                         |
+| **Parameter**             | **Type**                          | **Description**                                     |
+|---------------------------|-----------------------------------|-----------------------------------------------------|
+| `bookingDate`             | `string($date-time)` _(query)_    | Filter bookings by creation date.                   |
+| `bookingStatus`           | `string` _(query)_                | Filter bookings by current booking status.          |
+| `isActive`                | `boolean` _(query)_               | Filter bookings by active state.                    |
+| `isAvailableForCheckin`   | `boolean` _(query)_               | Filter bookings that are eligible for check-in.     |
+| `orderBy`                 | `string` _(query)_                | Order results by specific fields.                   |
+| `pageNumber`              | `integer($int32)` _(query)_       | Page number for paginated results.                  |
+| `pageSize`                | `integer($int32)` _(query)_       | Number of results per page.                         |
 
 ## Responses
 
