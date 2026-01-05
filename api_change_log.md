@@ -6,11 +6,10 @@ outline: deep
 
 This change log records significant updates to the Harapan Jaya API documentation, including updates to service URLs, endpoints, and response structures that may impact existing integrations.
 
----
 
 <div id="v1-1-0"></div>
 
-::: details v1.1.0 – January 2026
+::: ## details v1.1.0 – January 2026
 ---
 
 ###### POST Booking
