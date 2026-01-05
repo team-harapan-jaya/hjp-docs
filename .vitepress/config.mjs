@@ -62,7 +62,7 @@ export default defineConfig({
       {
         text: 'Change Log',
         items: [
-          { text: 'V1.1.0 - January 2026', link: '/api-change-log#v1-1-0' }
+          { text: 'V1.1.0 - January 2026', link: '/api_change_log#v1-1-0' }
         ]
       }
     ]
