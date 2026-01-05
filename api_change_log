@@ -2,47 +2,85 @@
 outline: deep
 ---
 
-# GET All Bookings
+# API Change Log
 
-This endpoint allows users to retrieve a paginated list of bookings with optional filters such as booking date, creator, or sorting preferences. This endpoint is ideal for managing and viewing booking data in bulk.
+This section documents all significant changes made to the Harapan Jaya API documentation, including updates to service URLs, endpoints, and response structures. The purpose of this change log is to help partners understand what has changed, why the change was made, and how it may affect existing integrations.
 
-## URL
+---
 
-**Base URL (dev environtment)**: `https://dev-api.harapan-jaya.com`
+## Ticketing Service
 
-**Base URL (production)**: `https://api.harapan-jaya.com`
+<details>
+<summary><strong>v1.1.0 – January 2026</strong></summary>
 
-**Endpoint**: `/ticket/v1/Bookings`
+### Overview
+This release focuses on aligning the Booking API documentation with the latest Ticketing Service implementation.
 
-**URL Method**: `GET` `https://dev-api.harapan-jaya.com/ticket/v1/Bookings`
+---
 
-**Swagger URL**: `https://dev-api-akdp.harapan-jaya.com/swagger/index.html?urls.primaryName=Ticketing+Service+OpenApi`
+### POST /ticket/v1/Bookings
 
-## Parameters
+**Change Type:** Documentation Update  
+**Impact:** Non-breaking
 
-| **Parameter**             | **Type**                          | **Description**                                     |
-|---------------------------|-----------------------------------|-----------------------------------------------------|
-| `bookingDate`             | `string($date-time)` _(query)_    | Filter bookings by creation date.                   |
-| `bookingStatus`           | `string` _(query)_                | Filter bookings by current booking status.          |
-| `isActive`                | `boolean` _(query)_               | Filter bookings by active state.                    |
-| `isAvailableForCheckin`   | `boolean` _(query)_               | Filter bookings that are eligible for check-in.     |
-| `orderBy`                 | `string` _(query)_                | Order results by specific fields.                   |
-| `pageNumber`              | `integer($int32)` _(query)_       | Page number for paginated results.                  |
-| `pageSize`                | `integer($int32)` _(query)_       | Number of results per page.                         |
+#### Changes
+- Updated base URL to Ticketing Service
+- Updated response schema to include complete booking information
 
-## Responses
+#### Notes
+- No request payload changes
+- Existing integrations remain compatible
 
-- `200 OK`: Returns a paginated list of bookings.
-- `401 Unauthorized`: Authentication required.
-- `403 Forbidden`: Insufficient permissions to access the data.
-- `500 Internal Server Error`: Server issues.
+---
 
-## Example Response
+### GET /ticket/v1/Bookings
 
-::: code-group
-<<< @/responses/transaction_service/get_all_bookings/success_response.json [200 (OK)]
+**Change Type:** Documentation Update  
+**Impact:** Non-breaking
 
-<<< @/responses/transaction_service/get_all_bookings/unauthorized_response.json [401 (Unauthorized)]
+#### Changes
+- Updated base URL
+- Added pagination metadata in response
+- Added new response fields:
+  - `FinalPrice`
+  - `StatusName`
+  - `IsActive`
 
-<<< @/responses/transaction_service/get_all_bookings/forbidden_response.json [403 (Forbidden)]
-:::
+#### Notes
+- Filtering behavior remains unchanged
+- Pagination fields are optional and backward compatible
+
+---
+
+### GET /ticket/v1/Bookings/{idOrCode}
+
+**Change Type:** Documentation Update  
+**Impact:** Non-breaking
+
+#### Changes
+- Updated base URL
+- Added `IsAlreadyCheckin` flag in response
+
+#### Notes
+- Useful for validating check-in state before processing
+
+</details>
+
+---
+
+<details>
+<summary><strong>v1.0.0 – Initial Release</strong></summary>
+
+### Overview
+Initial release of Booking API documentation.
+
+#### Included Endpoints
+- POST /ticket/v1/Bookings
+- GET /ticket/v1/Bookings
+- GET /ticket/v1/Bookings/{idOrCode}
+
+#### Notes
+- Base URL pointing to initial Ticketing API gateway
+- Basic booking response structure
+
+</details>
