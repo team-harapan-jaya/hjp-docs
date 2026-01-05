@@ -8,21 +8,21 @@ This endpoint retrieve detailed information about a specific booking using eithe
 
 ## URL
 
-**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com`
+**Base URL (dev environtment)**: `https://dev-api.harapan-jaya.com`
 
-**Base URL (production)**: `https://api-akdp.harapan-jaya.com`
+**Base URL (production)**: `https://api.harapan-jaya.com`
 
-**Endpoint**: `/transaction/v2/Bookings/{idorCode}`
+**Endpoint**: `/ticket/v1/Bookings/{idorCode}`
 
-**URL Method**: `GET` `https://dev-api-akdp.harapan-jaya.com/transaction/v2/Bookings/{idorCode}`
+**URL Method**: `GET` `https://dev-api.harapan-jaya.com/ticket/v1/Bookings/{idorCode}`
 
-**Swagger URL**: `https://dev-api-akdp.harapan-jaya.com/swagger/index.html?urls.primaryName=Transaction+Service+OpenApi`
+**Swagger URL**: `https://dev-api-akdp.harapan-jaya.com/swagger/index.html?urls.primaryName=Ticketing+Service+OpenApi`
 
 ## Parameters
 
-| **Parameter**    | **Type**                      | **Description**                          |
-|------------------|-------------------------------|--------------------------------------    |
-| `idorCode` (required)  | `string($uuid)` _(path)_      | The unique booking ID or booking code.|
+| **Parameter**          | **Type**                      | **Description**                          |
+|------------------------|-------------------------------|--------------------------------------    |
+| `idorCode` (required)  | `string($uuid)` _(path)_      | The unique booking ID or booking code.   |
 
 ## Responses
 
