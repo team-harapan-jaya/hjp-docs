@@ -58,6 +58,13 @@ export default defineConfig({
             ]
           }
         ]
+      },      
+      {
+        text: 'Change Log',
+        items: [
+          { text: 'v1.0.0 - Initial Release', link: '/api_authentication', },
+          { text: 'V1.1.0 - January 2026', link: '/api_authentication', }
+        ]
       }
     ]
   },
