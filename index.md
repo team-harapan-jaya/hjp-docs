@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: API References
       link: /api_references/management_service/get_all_cities
+    - theme: alt
+      text: Change Log
+      link: /api_change_log
 
 features:
   - title: API Authentication
