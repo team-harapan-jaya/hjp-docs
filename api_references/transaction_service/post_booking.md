@@ -11,15 +11,15 @@ This endpoint allows users to create a new booking by providing the necessary de
 
 ## URL
 
-**Base URL (dev environtment)**: `https://dev-api-akdp.harapan-jaya.com`
+**Base URL (dev environtment)**: `https://dev-api.harapan-jaya.com`
 
-**Base URL (production)**: `https://api-akdp.harapan-jaya.com`
+**Base URL (production)**: `https://api.harapan-jaya.com`
 
-**Endpoint**: `/transaction/v2/Bookings`
+**Endpoint**: `/ticket/v1/Bookings`
 
-**URL Method**: `GET` `https://dev-api-akdp.harapan-jaya.com/transaction/v2/Bookings`
+**URL Method**: `POST` `https://dev-api.harapan-jaya.com/ticket/v1/Bookings`
 
-**Swagger URL**: `https://dev-api-akdp.harapan-jaya.com/swagger/index.html?urls.primaryName=Transaction+Service+OpenApi`
+**Swagger URL**: `https://dev-api-akdp.harapan-jaya.com/swagger/index.html?urls.primaryName=Ticketing+Service+OpenApi`
 
 ## Body
 
