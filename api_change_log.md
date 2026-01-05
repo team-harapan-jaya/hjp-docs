@@ -10,7 +10,8 @@ This change log records significant updates to the Harapan Jaya API documentatio
 
 <div id="v1-1-0"></div>
 
-:::details v1.1.0 – January 2026
+<details>
+<summary><strong>v1.1.0 – January 2026</strong></summary>
 
 ---
 
@@ -42,4 +43,4 @@ This change log records significant updates to the Harapan Jaya API documentatio
 - Updated HTTP method and Swagger URL
 - Updated 200 (OK) response schema to include complete booking information
 
-:::
+<details>
