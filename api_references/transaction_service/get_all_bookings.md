@@ -23,9 +23,6 @@ This endpoint allows users to retrieve a paginated list of bookings with optiona
 | **Parameter**             | **Type**                          | **Description**                                     |
 |---------------------------|-----------------------------------|-----------------------------------------------------|
 | `bookingDate`             | `string($date-time)` _(query)_    | Filter bookings by creation date.                   |
-| `bookingStatus`           | `string` _(query)_                | Filter bookings by current booking status.          |
-| `isActive`                | `boolean` _(query)_               | Filter bookings by active state.                    |
-| `isAvailableForCheckin`   | `boolean` _(query)_               | Filter bookings that are eligible for check-in.     |
 | `orderBy`                 | `string` _(query)_                | Order results by specific fields.                   |
 | `pageNumber`              | `integer($int32)` _(query)_       | Page number for paginated results.                  |
 | `pageSize`                | `integer($int32)` _(query)_       | Number of results per page.                         |
