@@ -4,7 +4,7 @@ outline: deep
 
 # GET All Bookings
 
-This endpoint allows users to retrieve a paginated list of bookings with optional filters such as booking date, creator, or sorting preferences. This endpoint is ideal for managing and viewing booking data in bulk.
+This endpoint returns a paginated list of bookings. It supports filtering by booking creation date, sorting by specified fields, and customized using pagination parameters.
 
 ## URL
 
