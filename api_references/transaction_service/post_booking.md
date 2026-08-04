@@ -6,8 +6,9 @@ outline: deep
 
 This endpoint allows users to create a new booking by providing the necessary details such as schedule, origin, and destination. This endpoint allows users to initiate a booking process with the required information.
 
-> [!WARNING] PAYMENT REQUIRED
-> ⚠️ Ensure that the payment has been successfully completed before calling this endpoint.
+> [!CAUTION] ⚠️ PAYMENT REQUIRED
+> Ensure that the payment has been successfully completed before calling this endpoint.
+>
 > Any successful booking request will be considered a valid booking and will automatically generate a billing record in our system.
 
 ## URL
