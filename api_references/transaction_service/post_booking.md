@@ -30,7 +30,7 @@ This endpoint allows users to create a new booking by providing the necessary de
 | `Name`                   | `string`    | The name of the customer making the booking.                                     | Required        |
 | `PhoneNumber`            | `string`    | The customer's phone number.                                                     | Required        |
 | `Email`                  | `string`    | The customer's email address.                                                    | Required        |
-| `Address`                | `string`    | The customer's address.                                                          | Required        |
+| `Address`                | `string`    | The customer's address.                                                          | Optional        |
 | `ScheduleId`             | `string`    | The unique identifier (UUID) of the schedule for the booking.                    | Required        |
 | `OriginStationId`        | `string`    | The unique identifier (UUID) of the origin terminal.                             | Required        |
 | `DestinationStationId`   | `string`    | The unique identifier (UUID) of the destination terminal.                        | Required        |
