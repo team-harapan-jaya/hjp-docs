@@ -21,7 +21,7 @@ This endpoint allows users to create a new booking by providing the necessary de
 
 **URL Method**: `POST` `https://dev-api.harapan-jaya.com/ticket/v1.1/Bookings`
 
-**Swagger URL**: `https://dev-api-akdp.harapan-jaya.com/swagger/index.html?urls.primaryName=Ticketing+Service+OpenApi`
+**Swagger URL**: `https://dev-api-akdp.harapan-jaya.com/swagger/index.html?urls.primaryName=Ticketing+OpenApi+-+V1.1`
 
 ## Body
 
