@@ -17,23 +17,27 @@ This endpoint allows users to create a new booking by providing the necessary de
 
 **Base URL (production)**: `https://api.harapan-jaya.com`
 
-**Endpoint**: `/ticket/v1/Bookings`
+**Endpoint**: `/ticket/v1.1/Bookings`
 
-**URL Method**: `POST` `https://dev-api.harapan-jaya.com/ticket/v1/Bookings`
+**URL Method**: `POST` `https://dev-api.harapan-jaya.com/ticket/v1.1/Bookings`
 
 **Swagger URL**: `https://dev-api-akdp.harapan-jaya.com/swagger/index.html?urls.primaryName=Ticketing+Service+OpenApi`
 
 ## Body
 
-| **Attribute**          | **Type**    | **Description**                                                | **Required**    |
-|------------------------|-------------|----------------------------------------------------------------|-----------------|
-| `Name`                 | `string`    | The name of the customer making the booking.                   | Required        |
-| `PhoneNumber`          | `string`    | The customer's phone number.                                   | Required        |
-| `Email`                | `string`    | The customer's email address.                                  | Required        |
-| `Address`              | `string`    | The customer's address.                                        | Required        |
-| `ScheduleId`           | `string`    | The unique identifier (UUID) of the schedule for the booking.  | Required        |
-| `OriginStationId`      | `string`    | The unique identifier (UUID) of the origin terminal.           | Required        |
-| `DestinationStationId` | `string`    | The unique identifier (UUID) of the destination terminal.      | Required        |
+| **Attribute**            | **Type**    | **Description**                                                                  | **Required**    |
+|--------------------------|-------------|----------------------------------------------------------------------------------|-----------------|
+| `Name`                   | `string`    | The name of the customer making the booking.                                     | Required        |
+| `PhoneNumber`            | `string`    | The customer's phone number.                                                     | Required        |
+| `Email`                  | `string`    | The customer's email address.                                                    | Required        |
+| `Address`                | `string`    | The customer's address.                                                          | Required        |
+| `ScheduleId`             | `string`    | The unique identifier (UUID) of the schedule for the booking.                    | Required        |
+| `OriginStationId`        | `string`    | The unique identifier (UUID) of the origin terminal.                             | Required        |
+| `DestinationStationId`   | `string`    | The unique identifier (UUID) of the destination terminal.                        | Required        |
+| `PartnerReferenceNumber` | `string`    | The unique booking or payment reference ID provided by the partner system.       | Required        |
+
+> [!WARNING] 📢 CUSTOMER'S ADDRESS
+> If no address is provided, send the value as `null` instead of an empty string (""). If provided, the address must contain at least 3 characters.
 
 ## Example Request Body
 
@@ -46,7 +50,8 @@ This endpoint allows users to create a new booking by providing the necessary de
         "Address": "123 Main Street",
         "ScheduleId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
         "OriginStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-        "DestinationStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6" 
+        "DestinationStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "PartnerReferenceNumber": "TklXc-040826"  
     },
     {
         "Name": "Jessica Doe",
@@ -55,7 +60,8 @@ This endpoint allows users to create a new booking by providing the necessary de
         "Address": "123 Main Street",
         "ScheduleId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
         "OriginStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-        "DestinationStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        "DestinationStationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "PartnerReferenceNumber": "edw7o-290726"
     }
 ]
 ```
